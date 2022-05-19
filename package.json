@@ -1,0 +1,36 @@
+{
+  "name": "react-webpack-template",
+  "version": "1.0.0",
+  "description": "React Webpack template",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server .",
+    "build": "Webpack ."
+  },
+  "author": "Vinícius Gugelmin",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.12",
+    "@babel/plugin-transform-runtime": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/runtime": "^7.17.9",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.5",
+    "dotenv-webpack": "^7.1.0",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.2.2",
+    "path": "^0.12.7",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "process": "^0.11.10",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
